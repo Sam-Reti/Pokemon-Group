@@ -1,0 +1,26 @@
+body {
+  background-image: url("Images/pokemon-gen-1-wallpapers2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+}
+
+main {
+  text-align: center;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  background: linear-gradient(red 0% 48%, black 48% 52%, white 52% 100%);
+  font-size: 0.5rem;
+}
